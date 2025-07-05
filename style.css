@@ -9,7 +9,9 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: #e63947c5;
+    background-image: url(abstract-gradient-bg-grain-texture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,12 +22,15 @@
 .main {
     width: 25vw;
     min-width: 300px;
-    background-color: #0487d8;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 h2 {
@@ -41,7 +46,7 @@ h2 {
     outline: none;
     padding: 10px;
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: 50; */
     text-align: center;
 }
 
