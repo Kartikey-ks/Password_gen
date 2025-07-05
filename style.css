@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    color: black;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e63947c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: large;
+}
+
+.main {
+    width: 25vw;
+    min-width: 300px;
+    background-color: #0487d8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+#password {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btns {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.button {
+    border: none;
+    outline: none;
+    width: 140px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.passLabel {
+    color: white;
+}
+
+#length {
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 20px;
+    padding: 0px;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+    accent-color: #e63947c5;
+}
